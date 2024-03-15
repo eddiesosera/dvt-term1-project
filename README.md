@@ -1,6 +1,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/eddiesosera/codegenius?color=%23FF4C54)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/eddiesosera/codegenius?color=%234E54AD)
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/eddiesosera/]
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/eddiesosera/)
 
 <!-- HEADER SECTION -->
 <h5 align="center" style="padding:0;margin:0;">Eddie Sosera</h5>
@@ -17,7 +17,7 @@
   <h3 align="center">Galactic Gateways Project</h3>
 
   <p align="center">
-    Short Project Slogan / Description <br>
+    Galactic Gateways is a travel agency that offers space travel services to the public. The app will serve as a virtual guide for potential space travelers. <br>
       <a href="https://github.com/eddiesosera/dvt-term1-project"><strong>Explore the docs »</strong></a>
    <br />
    <br />
@@ -74,7 +74,8 @@
 
 ## Features
 
-![Homescreen][screen name]
+<!-- ![Homescreen][screen name] -->
+
 Description of the screen.
 
 <br />
