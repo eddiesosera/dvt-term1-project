@@ -1,3 +1,7 @@
+.hero-section {
+    margin-top: calc(-68px + -18px + -18px);
+}
+
 .hero-background-img {
     height: 81vh;
     width: 100%;
