@@ -1,0 +1,5 @@
+.hero-background-img {
+    height: 81vh;
+    width: 100%;
+    object-fit: cover;
+}
