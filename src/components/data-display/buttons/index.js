@@ -12,3 +12,15 @@ export const ButtonOutline = ({ borderColor, borderWith, textColor, fontSize, ch
         </div>
     )
 }
+
+export const ButtonFill = ({ backgroundColor, textColor, fontSize, children }) => {
+    return (
+        <div className='gg-button' style={{
+            background: backgroundColor,
+            color: textColor,
+            background: 'none', fontSize: `${fontSize}px`
+        }}>
+            {children}
+        </div>
+    )
+}
