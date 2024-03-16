@@ -18,14 +18,15 @@ export const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='navbar-left'>
-                <img src={logo} alt='Logo' />
+                <img className='navbar-left-img' src={logo} alt='Logo' />
                 <ul className='navbar-left-items'>
                     {
                         pages.map((page) => {
                             return (
-                                <li className={`navbar-left-item ${page.url === activePage ? 'active-page' : ''}`}
+                                <li className={`navbar-left-item`}
                                     onClick={() => { setActivePage(page.url) }}>
                                     {page.title}
+                                    <div className={`navbar-left-item-line ${page.url === activePage && 'active-page'}`} />
                                 </li>
                             )
                         })

@@ -1,7 +1,51 @@
 .navbar {
-    width: 100%;
+    /* Subtracting the 122px from the horizontal side margins because of the padding */
+    width: calc(100% - 122px - 122px);
+
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: absolute;
     top: 0;
+    padding: 18px 122px;
+}
+
+.navbar-left {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+
+.navbar-left-img {}
+
+.navbar-left-items {
+    display: flex;
+    gap: 72px;
+    padding: 0;
+}
+
+.navbar-left-item {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    cursor: pointer;
+}
+
+.navbar-left-item-line {
+    display: none;
+    height: 3px;
+    width: 50%;
+    border-radius: 100px;
+    background: #7920C2;
+}
+
+.active-page {
+    display: block !important;
 }
