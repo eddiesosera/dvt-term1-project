@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../../../assets/img/gg_logo.png';
 import './index.css'
+import { ButtonOutline } from '../../data-display/buttons';
 
 export const Navbar = () => {
     const [activePage, setActivePage] = useState('/')
@@ -34,7 +35,9 @@ export const Navbar = () => {
                 </ul>
             </div>
             <div className='navbar-right'>
-                <button>Get the App</button>
+                <ButtonOutline borderWith={4} borderColor='#F2994A' textColor='#FFFFFF' fontSize={16}>
+                    Get the app
+                </ButtonOutline>
             </div>
         </div>
     )
