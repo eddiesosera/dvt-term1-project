@@ -1,11 +1,49 @@
 .hero-section {
     margin-top: calc(-68px + -18px + -18px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
 }
 
 .hero-background-img {
-    height: 81vh;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
     position: relative;
     z-index: -1;
+}
+
+.hero-content {
+    position: absolute;
+    max-width: 714px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-content-top {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero-content-heading {
+    font-family: Bebas Neue;
+    font-size: 96px;
+    line-height: 100px;
+}
+
+.hero-content-description {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero-content-cta {
+    display: flex;
+    gap: 32px;
 }
