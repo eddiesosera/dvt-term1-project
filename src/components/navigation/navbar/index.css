@@ -1,0 +1,7 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
