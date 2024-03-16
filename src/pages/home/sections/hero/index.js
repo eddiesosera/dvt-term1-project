@@ -21,6 +21,9 @@ export const HeroSection = () => {
                     <ButtonFill backgroundColor='#7920C2' textColor='#FFFFFF' fontSize={16}>
                         Destination
                     </ButtonFill>
+                    <ButtonFill backgroundColor='#F2994A' textColor='#FFFFFF' fontSize={16}>
+                        Stay up-to date
+                    </ButtonFill>
                 </div>
             </div>
         </div>
