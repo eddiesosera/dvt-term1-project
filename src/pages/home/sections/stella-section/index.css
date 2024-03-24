@@ -1,0 +1,50 @@
+.stellar-selection-section {
+    background: #0C0519;
+    width: 100%;
+}
+
+.stellar-selection-content-inner {
+    padding: 130px 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 76px;
+}
+
+.stellar-selection-top {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.stellar-selection-top-head {
+    color: var(--White, #FFF);
+    text-align: center;
+    /* Bebas Neue 1 */
+    font-family: "Bebas Neue";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 61.6px;
+    /* 110% */
+}
+
+.stellar-selection-top-description {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 574px;
+}
+
+.stellar-selection-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(337px, 1fr));
+    /* justify-content: center; */
+    gap: 30px;
+    width: 100%;
+}

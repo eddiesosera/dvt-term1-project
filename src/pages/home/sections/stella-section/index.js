@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 import mars from '../../../../assets/img/cards/mars.png';
 import saturn from '../../../../assets/img/cards/saturn.png';
 import pluto from '../../../../assets/img/cards/pluto.png';
@@ -24,18 +25,21 @@ export const StellaSelectionSection = () => {
     ]
     return (
         <div className='stellar-selection-section'>
-            <div className='stellar-selection-top'>
-                <div className='stellar-selection-top-head'>A Stellar Selection</div>
-                <div className='stellar-selection-top-description'>Explore three breathtaking destinations, each with its own unique charm and mystery.</div>
-            </div>
-            <div className='stellar-selection-content'>
-                {
-                    planets.map((planet) => {
-                        return (
-                            <PlanetCard image={planet.image} title={planet.title} description={planet.description} />
-                        )
-                    })
-                }
+            <div className='stellar-selection-content-inner'>
+                <div className='stellar-selection-top'>
+                    <div className='stellar-selection-top-head'>A Stellar Selection</div>
+                    <div className='stellar-selection-top-description'>Explore three breathtaking destinations, each with its own unique charm and mystery.</div>
+                </div>
+                <div className='stellar-selection-content'>
+
+                    {
+                        planets.map((planet) => {
+                            return (
+                                <PlanetCard image={planet.image} title={planet.title} description={planet.description} />
+                            )
+                        })
+                    }
+                </div>
             </div>
         </div>
     )
