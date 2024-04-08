@@ -1,0 +1,65 @@
+.subscribe-form {
+    background: #7920C2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    width: fit-content;
+    padding: 64px;
+    border-radius: 30px;
+
+    margin-top: -122px;
+}
+
+.subscribe-form-title {
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.2px;
+    /* 110% */
+}
+
+.subscribe-form-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.subscribe-form-form-input-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.subscribe-form-form-input {
+    border-radius: 50px;
+    border: 2px solid var(--White, #FFF);
+    padding: 10px;
+    color: var(--Navy-3, #180C60);
+    font-family: Inter;
+    font-size: 16px;
+    /* height: 55px; */
+}
+
+.subscribe-form-form-input-action {
+    color: white;
+    border-radius: 100px;
+    background: var(--Secondary, #F2994A);
+    padding: 10px;
+    border: none;
+    color: var(--Color---White, #FFF);
+
+    /* Text - Normal Bold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.4px;
+    height: 55px;
+    /* 140% */
+
+    min-width: 184px;
+}
